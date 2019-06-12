@@ -55,10 +55,7 @@ describe "#translate" do
     expect(s).to eq("ietquay")
   end
 
-  it "counts 'qu' as a consonant even when it's preceded by a consonant" do
-    s = translate("square")
-    expect(s).to eq("aresquay")
-  end
+
 
   it "translates many words" do
     s = translate("the quick brown fox")
